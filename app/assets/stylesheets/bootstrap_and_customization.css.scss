@@ -1,6 +1,23 @@
-$body-bg:			#95a5a6;
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+$body-bg:					#95a5a6;
 $navbar-default-bg:			#7f8c8d;
+$font-family-sans-serif: 	'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $navbar-default-link-color:	white;
-$jumbotron-bg: white;
+$jumbotron-bg: 				white;
 
 @import 'bootstrap';
+
+	.center {
+		text-align: center;
+	}
+
+	.navbar-brand {
+	font-weight: bold;
+	}
+
+	.nav-stacked {
+		position: fixed;
+	}
+
+	body { padding-top: 70px; }
